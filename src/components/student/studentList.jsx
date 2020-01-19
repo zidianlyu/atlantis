@@ -26,7 +26,7 @@ const iconConfig = {
 };
 
 class StudentList extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.handleFetchStudents();
   }
 
@@ -35,7 +35,7 @@ class StudentList extends React.Component {
       return (
         <tr key={student.id}>
           <td>
-            <Button 
+            <Button
               style={{float: "left"}}
               icon="info"
               size="medium"
