@@ -1,0 +1,60 @@
+.ApplicationList {
+
+    &-id {
+        font-wieght: bold;
+    }
+    
+    &-table {
+        margin: 0 110px;
+        border-collapse: collapse;
+    }
+    &-table-title {
+        width: 80px;
+        height: 55px;
+    }
+    &-name {
+        width: 35%;
+    }
+    &-capacity {
+      width: 5%;
+    }
+    &-student-email {
+        width: 15%;
+    }
+    &-program-schedule {
+      width: 10%;
+    }
+
+    &-application-status {
+      width: 15%;
+    }
+    &-program-description {
+        width: 10%;
+    }
+    &-quality-score {
+        width: 10%;
+    }
+
+    tr:nth-child(2n) {
+        background-color: #f9f9f9;
+    }
+
+    td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    th {
+      color: rgba(0,0,0,.44);
+    }
+
+    td:first-child {
+        color: rgba(0,0,0,.44);
+    }
+}
+
+.ApplicationDetail {
+    &-company-info {
+        display: inline-block;
+    }
+    
+}
